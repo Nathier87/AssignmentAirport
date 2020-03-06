@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Teacher Course</title>
+
+    <link rel="stylesheet" href="css/Air1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/Air2.js"></script>
+
+</head>
+
+<body>
+
+    <form>
+        <h2> Airport</h2>
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><button class="remove-button" airportId=" ">Delete</button></td>
+                </tr>
+            </thead>
+            <tbody id="airportContainer"></tbody>
+
+        </table>
+        <label for="airportNameInput">Name:</label>
+        <input type="text" placeholder="airport name" id="airportNameInput" />
+        <br />
+        <button id="getAirportButton" type="button">Get Airport</button>
+        <button id="createAirportButton" type="button">Create Airport</button>
+
+    </form>
+
+
+    <!-- Airplane -->
+
+    <form>
+        <h2> Airport</h2>
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Airport</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button class="remove-button" airplanetId=" ">Delete</button></td>
+                </tr>
+            </thead>
+            <tbody id="airplaneContainer"></tbody>
+
+        </table>
+        <label for="airplaneNameInput">Name:</label>
+        <input type="text" placeholder="airplanename" id="airplaneNameInput" />
+        <br />
+        <button id="getAirplaneButton" type="button">Get Airplane</button>
+        <button id="createAirplaneButton" type="button">Create Airplane</button>
+
+    </form>
+
+
+
+</body>
+
+</html>
